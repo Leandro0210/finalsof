@@ -13,8 +13,8 @@ namespace CesarCipher
             {
                 if (char.IsLetter(character))
                 {
-                    char offset = char.IsUpper(character) ? 'A' : 'a';
-                    result.Append((char)(((character + shift - offset) % 26) + offset));
+                    char baseASCII = char.IsUpper(character) ? 'A' : 'a';
+                    result.Append((char)(((character + shift - baseASCII) % 26) + baseASCII));
                 }
                 else
                 {
