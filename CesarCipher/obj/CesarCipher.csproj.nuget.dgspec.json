@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lw/Documents/C#/Final_test/CesarCipher/src/CesarCipher/CesarCipher.csproj": {}
+    "c:\\Users\\leand\\Desktop\\were\\finalsof\\CesarCipher\\CesarCipher.csproj": {}
   },
   "projects": {
-    "/home/lw/Documents/C#/Final_test/CesarCipher/src/CesarCipher/CesarCipher.csproj": {
+    "c:\\Users\\leand\\Desktop\\were\\finalsof\\CesarCipher\\CesarCipher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lw/Documents/C#/Final_test/CesarCipher/src/CesarCipher/CesarCipher.csproj",
+        "projectUniqueName": "c:\\Users\\leand\\Desktop\\were\\finalsof\\CesarCipher\\CesarCipher.csproj",
         "projectName": "CesarCipher",
-        "projectPath": "/home/lw/Documents/C#/Final_test/CesarCipher/src/CesarCipher/CesarCipher.csproj",
-        "packagesPath": "/home/lw/.nuget/packages/",
-        "outputPath": "/home/lw/Documents/C#/Final_test/CesarCipher/src/CesarCipher/obj/",
+        "projectPath": "c:\\Users\\leand\\Desktop\\were\\finalsof\\CesarCipher\\CesarCipher.csproj",
+        "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\leand\\Desktop\\were\\finalsof\\CesarCipher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lw/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
