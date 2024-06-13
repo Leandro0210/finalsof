@@ -29,8 +29,11 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
 ## Uso
 1.- Ingresa tu frase a cifrar o descifrar
+
 2.- Ingresa tu numero de desplazamiento
+
 3.- Elige si quieres cifrar o descifrar
+
 4.- El programa te devolvera tu texto segun lo solicitado 
 
 
