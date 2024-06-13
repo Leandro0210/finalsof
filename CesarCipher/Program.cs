@@ -7,17 +7,31 @@ namespace CesarCipher
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese la frase a cifrar:");
+            Console.WriteLine("Ingrese la frase:");
             string input = Console.ReadLine();
 
             Console.WriteLine("Ingrese el desplazamiento:");
             if (int.TryParse(Console.ReadLine(), out int shift))
             {
-                string encrypted = Cipher.Encrypt(input, shift);
-                Console.WriteLine($"Frase cifrada: {encrypted}");
+                Console.WriteLine("Seleccione una opción:");
+                Console.WriteLine("1. Cifrar");
+                Console.WriteLine("2. Descifrar");
+                string option = Console.ReadLine();
 
-                string decrypted = Cipher.Decrypt(encrypted, shift);
-                Console.WriteLine($"Frase descifrada: {decrypted}");
+                if (option == "1")
+                {
+                    string encrypted = Cipher.Encrypt(input, shift);
+                    Console.WriteLine($"Frase cifrada: {encrypted}");
+                }
+                else if (option == "2")
+                {
+                    string decrypted = Cipher.Decrypt(input, shift);
+                    Console.WriteLine($"Frase descifrada: {decrypted}");
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, seleccione 1 para cifrar o 2 para descifrar.");
+                }
             }
             else
             {
@@ -26,3 +40,4 @@ namespace CesarCipher
         }
     }
 }
+
